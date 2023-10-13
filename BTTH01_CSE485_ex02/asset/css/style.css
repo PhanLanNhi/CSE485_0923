@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+	font-family: "Poppins", sans-serif;
+}
+
+.header {
+    box-shadow: 0 4px 8px 0 rgba(102, 101, 101, 0.2), 0 6px 20px 0 rgba(133, 132, 132, 0.19);;
+}
+
+.body__main {
+    position: relative;
+}
+
+.body__header-wrapp {
+    position: absolute;
+    top: -28px;
+}
+
+.body__header-wrapp a {
+    padding: 4px;
+}
+
+.navbar-nav li:hover a:first-child {
+    color: #000;
+}
+
+.navbar-nav li:hover a:last-child {
+    color: #000;
+}
